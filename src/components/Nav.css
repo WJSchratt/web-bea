@@ -1,0 +1,42 @@
+.nav {
+  background-color: rgba(999, 999, 999, 0) !important;
+  color:white !important;
+  font-family: 'Ranga', cursive;
+
+
+}
+.ok {
+  color:white  !important;
+  font-size: 45px;
+  margin-left: 30px !important;
+  background-image: none !important;
+  background-color: none !important;
+  font-family: 'Ranga', cursive;
+
+}
+.ok:hover{
+  color:firebrick  !important;
+}
+Container{
+  text-align: right;
+  color:white
+}
+#basic-nav-dropdown{
+  color: white !important;
+  font-size: 75px;
+}
+#basic-nav-dropdown {
+  color:rgba(999, 999, 999, 0.7)!important;
+}
+
+div.container4 {
+    height: 10em;
+    position: relative }
+div.container4 p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
