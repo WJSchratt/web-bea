@@ -11,7 +11,9 @@ const styles = {
   textAlign: "center"
 };
 const insideStyles = {
-  background: "white",
+  color:"white",
+  fontSize:"30px",
+  fontFamily:"font-family: 'Ranga', cursive",
   padding: 20,
   position: "absolute",
   top: "50%",
@@ -31,27 +33,31 @@ const App = () => (
   <Nav/>
 
   <Parallax bgImage={headpic} strength={350}>
-    <div style={{ height: 700 }}>
+    <div style={{ height: 750 }}>
     </div>
   </Parallax>
-    <div className="hey">
+    <div className="hey1">
       <h2 className="marry">We are getting Married</h2>
       <p>(To eachother)</p>
     </div>
     <Parallax bgImage={robbea} strength={900}>
       <div style={{ height: 600 }}>
+      <div className="intro-1" style={insideStyles}>You are invited to join us</div>
       </div>
     </Parallax>
-      <div className="hey">
+      <div id="where" className="hey2">
         <h2 className="marry">Its gonna Happen here</h2>
         <p>(In Florida)</p>
+        <p className="marri"> The wedding will take place at Little Forest Farm close to Gainesville. <a href="http://www.littleforestfarm.biz/">http://www.littleforestfarm.biz/</a>
+        15500 SW 15th Ave Newberry FL 32669</p>
       </div>
     <Parallax bgImage={image2} strength={-400}>
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>Reverse direction</div>
+        <div className="intro-2" style={insideStyles}>November 2nd 2019</div>
       </div>
     </Parallax>
-    <h1>| | |</h1>
+    <h1 className="henry">Hotel Accommodations</h1>
+    <p className="poopButt"> We have booked 2 blocks of rooms in two separate hotels. The Hilton Double Tree and the Hilton Conference Center. The links to the reservations can be found below.</p>
     <Parallax
       bgImage={image4}
       strength={200}
@@ -74,7 +80,7 @@ const App = () => (
       )}
     >
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>renderProp</div>
+        <div style={insideStyles}>  </div>
       </div>
     </Parallax>
     <div style={{ height: 500 }} />
