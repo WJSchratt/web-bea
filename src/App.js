@@ -80,7 +80,7 @@ const App = () => (
       )}
     >
       <div style={{ height: 500 }}>
-        <div style={insideStyles}>  </div>
+        <div style={insideStyles}><a href= "https://doubletree.hilton.com/en/dt/groups/personalized/G/GNVGLDT-WBR-20191101/index.jhtml?WT.mc_id=POG">Hotel-1</a><a href="https://www.hilton.com/en/hi/groups/personalized/G/GVNCCHF-SB1119-20191101/index.jhtml?WT.mc_id=POG">Hotel-2</a></div>
       </div>
     </Parallax>
     <div style={{ height: 500 }} />
