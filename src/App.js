@@ -2,10 +2,10 @@ import React from "react";
 import { render } from "react-dom";
 import { Parallax } from "react-parallax";
 import './App.css'
-import headpic from './pictures/bea.jpg';
+import headpic from './pictures/Bea-rob.jpg';
 import Nav from './components/Nav.js';
-import robbea from "./pictures/test.jpg"
-import location from "./pictures/location.jpg"
+import robbea from "./pictures/maybe.jpg"
+import location from "./pictures/FullSizeRender (1).jpeg"
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center"
@@ -32,7 +32,7 @@ const App = () => (
   <div style={styles}>
   <Nav/>
 
-  <Parallax bgImage={headpic} strength={350}>
+  <Parallax bgImage={headpic} strength={200}>
     <div style={{ height: 750 }}>
     </div>
   </Parallax>
@@ -40,7 +40,7 @@ const App = () => (
       <h2 className="marry">We are getting Married</h2>
       <p>(To eachother)</p>
     </div>
-    <Parallax bgImage={robbea} strength={900}>
+    <Parallax bgImage={robbea} strength={400}>
       <div style={{ height: 600 }}>
       <div className="intro-1" style={insideStyles}>You are invited to join us</div>
       </div>
@@ -53,11 +53,13 @@ const App = () => (
       </div>
     <Parallax bgImage={image2} strength={-400}>
       <div style={{ height: 500 }}>
-        <div className="intro-2" style={insideStyles}>November 2nd 2019</div>
+        <div id="when" style={insideStyles}>November 2nd 2019</div>
       </div>
     </Parallax>
-    <h1 className="henry">Hotel Accommodations</h1>
-    <p className="poopButt"> We have booked 2 blocks of rooms in two separate hotels. The Hilton Double Tree and the Hilton Conference Center. The links to the reservations can be found below.</p>
+    <div className="Last-try">
+    <h1>Hotel Accommodations</h1>
+     We have booked 2 blocks of rooms in two separate hotels. The Hilton Double Tree and the Hilton Conference Center. The links to the reservations can be found below.
+    </div>
     <Parallax
       bgImage={image4}
       strength={200}
@@ -66,7 +68,7 @@ const App = () => (
           <div
             style={{
               position: "absolute",
-              background: `rgba(999, 999, 999, ${percentage * 2})`,
+              background: `rgba(18,0,0, ${percentage * 2})`,
               left: "50%",
               top: "50%",
               borderRadius: "50%",
@@ -75,13 +77,18 @@ const App = () => (
               height: percentage * 500
             }}
           />
+
         </div>
 
       )}
     >
       <div style={{ height: 500 }}>
-        <div style={insideStyles}><a href= "https://doubletree.hilton.com/en/dt/groups/personalized/G/GNVGLDT-WBR-20191101/index.jhtml?WT.mc_id=POG">Hotel-1</a><a href="https://www.hilton.com/en/hi/groups/personalized/G/GVNCCHF-SB1119-20191101/index.jhtml?WT.mc_id=POG">Hotel-2</a></div>
-      </div>
+        <div className="render" style={insideStyles}><div><a className="hotel" href= "https://doubletree.hilton.com/en/dt/groups/personalized/G/GNVGLDT-WBR-20191101/index.jhtml?WT.mc_id=POG">Doubletree</a>
+        </div>
+        <div>
+        <a className="hotel" href="https://www.hilton.com/en/hi/groups/personalized/G/GVNCCHF-SB1119-20191101/index.jhtml?WT.mc_id=POG">Hilton</a></div>
+        </div>
+        </div>
     </Parallax>
     <div style={{ height: 500 }} />
     <h2>{"\u2728"}</h2>
