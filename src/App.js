@@ -37,7 +37,7 @@ const App = () => (
     </div>
   </Parallax>
     <div className="hey1">
-      <h2 className="marry">We are getting Married</h2>
+      <h2 className="marry" id="home">We are getting Married</h2>
       <p>(To eachother)</p>
     </div>
     <Parallax bgImage={robbea} strength={400}>
@@ -46,7 +46,7 @@ const App = () => (
       </div>
     </Parallax>
       <div id="where" className="hey2">
-        <h2 className="marry">Its gonna Happen here</h2>
+        <h2 className="marry">It's gonna happen here</h2>
         <p>(In Florida)</p>
         <p className="marri"> The wedding will take place at Little Forest Farm close to Gainesville. <a href="http://www.littleforestfarm.biz/">http://www.littleforestfarm.biz/</a>
         15500 SW 15th Ave Newberry FL 32669</p>
@@ -57,8 +57,8 @@ const App = () => (
       </div>
     </Parallax>
     <div className="Last-try">
-    <h1>Hotel Accommodations</h1>
-     We have booked 2 blocks of rooms in two separate hotels. The Hilton Double Tree and the Hilton Conference Center. The links to the reservations can be found below.
+    <h1 >Hotel Accommodations</h1>
+     <h2 className="hotelex">We have booked 2 blocks of rooms in two separate hotels. The Hilton Double Tree and the Hilton Conference Center. The links to the reservations can be found below.</h2>
     </div>
     <Parallax
       bgImage={image4}
@@ -91,7 +91,7 @@ const App = () => (
         </div>
     </Parallax>
     <div style={{ height: 500 }} />
-    <h2>{"\u2728"}</h2>
+
   </div>
 );
 
