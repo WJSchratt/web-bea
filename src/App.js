@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { render } from "react-dom";
 import { Parallax } from "react-parallax";
 import './App.css'
@@ -6,6 +6,8 @@ import headpic from './pictures/Bea-rob.jpg';
 import Nav from './components/Nav.js';
 import robbea from "./pictures/maybe.jpg"
 import location from "./pictures/FullSizeRender (1).jpeg"
+
+
 const styles = {
   fontFamily: "sans-serif",
   textAlign: "center"
@@ -28,7 +30,15 @@ const image3 =
 const image4 =
   "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/empire-state-building-black-and-white-square-format-john-farnan.jpg";
 
-const App = () => (
+export default class App extends Component {
+  onClick(){
+      window.location.href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547430189";
+  }
+  onClicker(){
+      window.location.href="https://www.amazon.com/wedding/organize-registry/?ref_=lol_ov_le";
+  }
+    render() {
+      return(
   <div style={styles}>
   <Nav/>
 
@@ -46,7 +56,7 @@ const App = () => (
       </div>
     </Parallax>
       <div id="where" className="hey2">
-        <h2 className="marry">It's gonna happen here</h2>
+        <h2 className="marry"><a href="http://www.littleforestfarm.biz/">It's gonna happen here</a></h2>
         <p>(In Florida)</p>
         <p className="marri"> The wedding will take place at Little Forest Farm close to Gainesville. <a href="http://www.littleforestfarm.biz/">http://www.littleforestfarm.biz/</a>
         15500 SW 15th Ave Newberry FL 32669</p>
@@ -90,10 +100,15 @@ const App = () => (
         </div>
         </div>
     </Parallax>
-    <div style={{ height: 500 }} />
 
+    <div className="end" style={{ height: 400 }}>
+    <h1 > We are looking forward to seein you</h1>
+    <h2 className="lol"> The Wedding Registry </h2>
+    <input class="btn btn-lg btn-primary" type="button" onClick={this.onClick} value="Bed-bath and beyond" />
+    <input class="btn btn-lg btn-primary" type="button" onClick={this.onClicker} value="Amazon" />
+    </div>
   </div>
 );
 
-render(<App />, document.getElementById("root"));
-export default App;
+}
+}

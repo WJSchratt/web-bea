@@ -14,7 +14,7 @@ padding-top: 4vh;
 .hey2 {
   background-color: rgb(79, 83, 155);
   font-size: 10px;
-  height: 15vh;
+  height: 16vh;
   font-family: 'Ranga', cursive;
 }
 a {
@@ -57,5 +57,19 @@ a:hover {
 
 .hotelex {
   font-size:1.5vw !important;
+
+}
+.end {
+  padding-top: 5vh;
+  font-size: 25px;
+  height:15vh;
+  font-family: 'Ranga', cursive;
+}
+.lol {
+  padding-top:5vh;
+  font-size: 30px;
+}
+.btn{
+  background-color: black;
 
 }

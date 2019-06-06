@@ -19,7 +19,7 @@ class Navi extends Component {
         <Nav.Link className="ok" href="#home">Home</Nav.Link>
         <Nav.Link className="ok" href="#where">Where</Nav.Link>
         <Nav.Link className="ok" href="#when">When</Nav.Link>
-        <Nav.Link  className="ok" href="#link">Why</Nav.Link>
+        <Nav.Link  className="ok" href="#link">Extra</Nav.Link>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
