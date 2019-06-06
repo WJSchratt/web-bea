@@ -103,7 +103,7 @@ export default class App extends Component {
 
     <div className="end" style={{ height: 400 }}>
     <h1 > We are looking forward to seein you</h1>
-    <h2 className="lol"> The Wedding Registry </h2>
+    <h2 className="lol" id="extra"> The Wedding Registry </h2>
     <input class="btn btn-lg btn-primary" type="button" onClick={this.onClick} value="Bed-bath and beyond" />
     <input class="btn btn-lg btn-primary" type="button" onClick={this.onClicker} value="Amazon" />
     </div>
