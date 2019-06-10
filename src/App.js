@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { render } from "react-dom";
 import { Parallax } from "react-parallax";
 import './App.css'
-import headpic from './pictures/Bea-rob.jpg';
+import headpic from './pictures/front-page.jpg';
 import Nav from './components/Nav.js';
-import robbea from "./pictures/maybe.jpg"
-import location from "./pictures/FullSizeRender (1).jpeg"
+import robbea from "./pictures/page-2.jpg"
+import location from "./pictures/location.jpg"
 
 
 const styles = {
@@ -37,6 +37,9 @@ export default class App extends Component {
   onClicker(){
       window.location.href="https://www.amazon.com/wedding/organize-registry/?ref_=lol_ov_le";
   }
+  onClickiest(){
+    window.location.href="http://www.littleforestfarm.biz/";
+  }
     render() {
       return(
   <div style={styles}>
@@ -47,22 +50,20 @@ export default class App extends Component {
     </div>
   </Parallax>
     <div className="hey1">
-      <h2 className="marry" id="home">We are getting Married</h2>
+      <h2 className="marry-1" id="home">We are getting Married</h2>
       <p>(To eachother)</p>
     </div>
-    <Parallax bgImage={robbea} strength={400}>
+    <Parallax bgImage={robbea} strength={600} blur={{ min: -1, max: 7}}>
       <div style={{ height: 600 }}>
       <div className="intro-1" style={insideStyles}>You are invited to join us</div>
       </div>
     </Parallax>
       <div id="where" className="hey2">
-        <h2 className="marry"><a href="http://www.littleforestfarm.biz/">It's gonna happen here</a></h2>
-        <p>(In Florida)</p>
-        <p className="marri"> The wedding will take place at Little Forest Farm close to Gainesville. <a href="http://www.littleforestfarm.biz/">http://www.littleforestfarm.biz/</a>
-        15500 SW 15th Ave Newberry FL 32669</p>
+        <h2 className="marry">It's gonna happen here</h2>
+        <input class="btn btn-lg btn-dark" type="button" id="farm" onClick={this.onClickiest} value="Little-Forest-Farm" />
       </div>
-    <Parallax bgImage={image2} strength={-400}>
-      <div style={{ height: 500 }}>
+    <Parallax bgImage={image2} strength={600} bgImageStyle={{ opacity: '.8'}} >
+      <div style={{ height: 600 }}>
         <div id="when" style={insideStyles}>November 2nd 2019</div>
       </div>
     </Parallax>
@@ -73,6 +74,7 @@ export default class App extends Component {
     <Parallax
       bgImage={image4}
       strength={200}
+
       renderLayer={percentage => (
         <div>
           <div
@@ -102,10 +104,10 @@ export default class App extends Component {
     </Parallax>
 
     <div className="end" style={{ height: 400 }}>
-    <h1 > We are looking forward to seein you</h1>
+    <h1 className="ending"> We are looking forward to seeing you</h1>
     <h2 className="lol" id="extra"> The Wedding Registry </h2>
-    <input class="btn btn-lg btn-primary" type="button" onClick={this.onClick} value="Bed-bath and beyond" />
-    <input class="btn btn-lg btn-primary" type="button" onClick={this.onClicker} value="Amazon" />
+    <input class="btn btn-lg btn-primary" id="but" type="button" onClick={this.onClick} value="Bed-bath and beyond" />
+    <input class="btn btn-lg btn-primary" id="buttons" type="button" onClick={this.onClicker} value="Amazon" />
     </div>
   </div>
 );

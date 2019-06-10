@@ -7,8 +7,15 @@ padding-top: 4vh;
 }
 .marry {
   font-size: 50px;
+  padding-top: 5px;
+  color:black;
+}
+.marry-1 {
+  font-size: 50px;
+  padding-top: 0.05vh
 }
 .marri {
+
   font-size:1.5vw;
 }
 .hey2 {
@@ -29,13 +36,12 @@ a:hover {
 }
 .intro-1{
   color: white !important;
-  font-size: 50px !important;
+  font-size: 5vw !important;
   font-family: 'Parisienne', cursive;
 }
 #when{
-  color: whitre !important;
+  color: black !important;
   font-size: 70px !important;
-  background-color: rgba(0,0,0,0.5);
   font-family: 'Ranga', cursive;
 }
 
@@ -45,6 +51,7 @@ a:hover {
   font-size: 25px;
   height:15vh;
   font-family: 'Ranga', cursive;
+  color:black;
 }
 
 .hotel {
@@ -67,9 +74,18 @@ a:hover {
 }
 .lol {
   padding-top:5vh;
-  font-size: 30px;
+  font-size: 3vw;
 }
 .btn{
   background-color: black;
+}
+#buttons{
+  margin-left:20px;
+}
+.ending{
+  font-size: 5vw;
+}
 
+#farm{
+  margin-bottom: 20px !important;
 }
