@@ -28,7 +28,8 @@ a {
   color:black;
 }
 a:hover {
-  color:green;
+  color:grey;
+  text-decoration: none;
 }
 .intro {
   color: firebrick;

@@ -53,17 +53,17 @@ export default class App extends Component {
       <h2 className="marry-1" id="home">We are getting Married</h2>
       <p>(To eachother)</p>
     </div>
-    <Parallax bgImage={robbea} strength={600} blur={{ min: -1, max: 7}}>
-      <div style={{ height: 600 }}>
+    <Parallax bgImage={robbea} strength={600} blur={{ min: -1, max: 5}}>
+      <div style={{ height: 700 }}>
       <div className="intro-1" style={insideStyles}>You are invited to join us</div>
       </div>
     </Parallax>
       <div id="where" className="hey2">
-        <h2 className="marry">It's gonna happen here</h2>
+        <h2 className="marry"><a href="http://www.littleforestfarm.biz/">It's gonna happen here</a></h2>
         <input class="btn btn-lg btn-dark" type="button" id="farm" onClick={this.onClickiest} value="Little-Forest-Farm" />
       </div>
     <Parallax bgImage={image2} strength={600} bgImageStyle={{ opacity: '.8'}} >
-      <div style={{ height: 600 }}>
+      <div style={{ height: 500 }}>
         <div id="when" style={insideStyles}>November 2nd 2019</div>
       </div>
     </Parallax>
