@@ -46,14 +46,14 @@ export default class App extends Component {
   <Nav/>
 
   <Parallax bgImage={headpic} strength={200}>
-    <div style={{ height: 750 }}>
+    <div style={{ height: 700 }}>
     </div>
   </Parallax>
     <div className="hey1">
       <h2 className="marry-1" id="home">We are getting Married</h2>
       <p>(To eachother)</p>
     </div>
-    <Parallax bgImage={robbea} strength={600} blur={{ min: -1, max: 5}}>
+    <Parallax bgImage={robbea} strength={600} >
       <div style={{ height: 700 }}>
       <div className="intro-1" style={insideStyles}>You are invited to join us</div>
       </div>
