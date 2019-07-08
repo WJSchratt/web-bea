@@ -99,5 +99,10 @@ a:hover {
     font-family: 'Ranga', cursive;
   }
 
+.intro-1{
+    color: white !important;
+    font-size: 50px !important;
+    font-family: 'Parisienne', cursive;
+  }
 
 }
