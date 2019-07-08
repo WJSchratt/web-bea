@@ -59,8 +59,10 @@ export default class App extends Component {
       </div>
     </Parallax>
       <div id="where" className="hey2">
+      <div className="alright">
         <h2 className="marry"><a href="http://www.littleforestfarm.biz/">It's gonna happen here</a></h2>
         <input class="btn btn-lg btn-dark" type="button" id="farm" onClick={this.onClickiest} value="Little-Forest-Farm" />
+      </div>
       </div>
     <Parallax bgImage={image2} strength={600} bgImageStyle={{ opacity: '.8'}} >
       <div style={{ height: 500 }}>
