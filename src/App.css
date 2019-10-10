@@ -57,6 +57,10 @@ a:hover {
 .hotel {
   padding-left:;
   color: grey !important;
+
+}
+a.hotel:hover{
+  color: red !important;
 }
 .render {
   color: white !important;

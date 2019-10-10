@@ -35,7 +35,7 @@ export default class App extends Component {
       window.location.href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/547430189";
   }
   onClicker(){
-      window.location.href="https://www.amazon.com/wedding/organize-registry/?ref_=lol_ov_le";
+      window.location.href="https://www.amazon.com/wedding/registry/2XHRHK13KGK9N?ref=wr_search_page_result_1";
   }
   onClickiest(){
     window.location.href="http://www.littleforestfarm.biz/";
